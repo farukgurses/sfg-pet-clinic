@@ -62,6 +62,8 @@ public class DataLoader implements CommandLineRunner {
         owner1.setCity("Miami");
         owner1.setTelephone("12312131231");
 
+//        Owner.builder().address("generated address with builder").build();
+// check intermediate builder later. at 174
         Pet mikesPet = new Pet();
         mikesPet.setPetType(savedDogType);
         mikesPet.setOwner(owner1);
@@ -76,7 +78,7 @@ public class DataLoader implements CommandLineRunner {
         owner2.setLastName("Glenanne");
         owner2.setAddress("123 Brickerel");
         owner2.setCity("Miami");
-        owner2.setTelephone("12312131231");
+        owner2.setTelephone("123121312317");
 
         Pet fionasCat = new Pet();
         fionasCat.setPetType(savedCatType);
